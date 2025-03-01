@@ -1,5 +1,43 @@
+
 body{
     margin: 0;
     padding: 0;
     text-align: center;
+}
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header div h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin: 0 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+.hero {
+    background: url(./images/image.png);
+    color: white;
+    height: 600px;
+    padding: 100px 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.btn {
+    background-color: aliceblue;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
 }
