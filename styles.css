@@ -1,16 +1,19 @@
 
 body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
+    background-image: url(./images/sweet-chocolate-bar-with-spiral-melted-chocolate_1441-874.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 header {
     display:flex;
     justify-content: space-between;
     align-items: center;
-}
-header div h2 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
 }
 nav ul {
     list-style: none;
@@ -18,26 +21,55 @@ nav ul {
 }
 nav ul li {
     margin: 0 10px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color:black;
 }
-.hero {
+#home {
     background: url(./images/image.png);
     color: white;
-    height: 600px;
     padding: 100px 200px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
 }
 .btn {
-    background-color: aliceblue;
+    background-color:rgba(214, 208, 208, 0.447);
     color: #000;
     text-decoration: none;
-    display: block;
+    display:  inline-block;
     padding: 10px 20px;
+    cursor: pointer;
 }
+.purchase {
+    display:flex;
+    justify-content: space-between;
+    color: white;
+
+}
+#about {
+    color: white;
+}
+#services {
+    color: white;
+
+}
+#services ul li {
+ text-align: left;
+}
+#contact {
+    color: white;
+}
+
+
+
+
+
+      
+
+
+
